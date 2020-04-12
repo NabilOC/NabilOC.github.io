@@ -51,7 +51,7 @@ aside .Coord
 	margin-left: 35px;
 	text-align: justify;
 }
-p, h1,h3,i
+p, h1,h3,i,h2
 {
 	font-family: 'Roboto',Verdana, sans-serif;
 }
@@ -93,7 +93,6 @@ main h3
 	border-bottom: 1.5px #00CED1 solid;
 	color: #37474F;
 }
-
 .Formation{
 	display: flex;
 	flex-direction: row;
@@ -101,6 +100,16 @@ main h3
 .fa-dot-circle:before {
     position: relative;
     content: "\f192";
-    top: 35%;
+    top: 1.25em;
 		margin-right: 1em;
+}
+.fa-circle:before {
+	position: relative;
+	top: 1.25em;
+	margin-right: 1em;
+    content: "\f111";
+}
+.PaveForm1
+{
+	padding-left: 6.2em;
 }
