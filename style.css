@@ -19,6 +19,8 @@ aside
 }
 aside .Image
 {
+	margin-top: 2em;
+	margin-bottom: 2em;
 	width: 200px;
 	height: 200px;
 	border: 4px solid;
@@ -39,16 +41,17 @@ aside h1
 aside .Propos
 {
 	align-content: center;
-	padding-bottom: 45.5em;
-	margin-right: 35px;
-	margin-left: 35px;
+	padding-bottom: 170%;
+	margin-right: 3.5em;
+	margin-left: 3.5em;
 	text-align: justify;
 }
-
+footer aside{
+	padding-top: 1000px;
+}
 aside .Coord
 {
-	margin-right: 35px;
-	margin-left: 35px;
+	margin-left: 3.5em;
 	text-align: justify;
 }
 p, h1,h3,i,h2, h4
@@ -70,25 +73,27 @@ p, h1,h3,i,h2, h4
 	display: flex;
 	flex-direction: row;
 }
-.icon
+.icon 
 {
-		display: flex;
-		justify-content: space-between;
-		margin-left: 35px;
-		margin-right:35px;
-		padding-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 35px;
+	margin-right:35px;
+	color:  #37474F;
 }
-i
+aside i
 {
-	font-size: 40px;
-	font-family: 'Roboto';
+	font-size: 40px; 		
+	border-radius: 50%;
+	border: solid #37474F;
+	padding: 0.2em;
 }
 #Droite
 {
 	display: flex;
 	flex-direction: column;
 }
-main h3
+section h3
 {
 	border-bottom: 1.5px #00CED1 solid;
 
@@ -97,11 +102,11 @@ main h3
 	display: flex;
 	flex-direction: row;
 }
-.fa-dot-circle:before {
+.fa-dot-circle/*:before*/ {
     position: relative;
     content: "\f192";
     top: 1.25em;
-		margin-right: 1em;
+	margin-right: 1em;
 }
 .fa-circle:before {
 	position: relative;
@@ -111,16 +116,14 @@ main h3
 }
 .PaveForm1
 {
-	padding-left: 6.2em;
-}
-bold h3
-{
-	margin-left: 10em;
+	padding-left: 7.5em;
+	margin-bottom: 1.5em;
 }
 .Reco
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	margin-bottom:0em;
 }
 footer h3
 {
@@ -130,4 +133,14 @@ footer h3
 .R2
 {
 	margin-left: 10em;
+}
+#Droite
+{
+	margin-left: 1.5em;
+}
+.GroupdeR
+{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 2%;
 }
