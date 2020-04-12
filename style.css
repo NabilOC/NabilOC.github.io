@@ -39,7 +39,7 @@ aside h1
 aside .Propos
 {
 	align-content: center;
-	padding-bottom: 20em;
+	padding-bottom: 45.5em;
 	margin-right: 35px;
 	margin-left: 35px;
 	text-align: justify;
@@ -51,7 +51,7 @@ aside .Coord
 	margin-left: 35px;
 	text-align: justify;
 }
-p, h1,h3,i,h2
+p, h1,h3,i,h2, h4
 {
 	font-family: 'Roboto',Verdana, sans-serif;
 }
@@ -114,6 +114,20 @@ main h3
 	padding-left: 6.2em;
 }
 bold h3
+{
+	margin-left: 10em;
+}
+.Reco
+{
+	display: flex;
+	flex-direction: row;
+}
+footer h3
+{
+	border-bottom: 1.5px #00CED1 solid;
+
+}
+.R2
 {
 	margin-left: 10em;
 }
