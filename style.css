@@ -91,7 +91,7 @@ i
 main h3
 {
 	border-bottom: 1.5px #00CED1 solid;
-	color: #37474F;
+
 }
 .Formation{
 	display: flex;
@@ -112,4 +112,8 @@ main h3
 .PaveForm1
 {
 	padding-left: 6.2em;
+}
+bold h3
+{
+	margin-left: 10em;
 }
